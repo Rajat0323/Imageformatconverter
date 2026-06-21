@@ -42,15 +42,15 @@ For that reason, the best approach is:
 
 If you want to start immediately, the most useful entry points are:
 
-- [image compressor to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
-- [image compressor](https://www.reduceimagesizeonline.com/image-compressor)
-- [image resizer](https://www.reduceimagesizeonline.com/image-resizer)
-- [image converter](https://www.reduceimagesizeonline.com/image-converter)
-- [background remover](https://www.reduceimagesizeonline.com/background-remover)
+- [image compressor to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb)
+- [image compressor](https://www.imageformatconverter.in/image-compressor)
+- [image resizer](https://www.imageformatconverter.in/image-resizer)
+- [image converter](https://www.imageformatconverter.in/image-converter)
+- [background remover](https://www.imageformatconverter.in/background-remover)
 
 ## 1. When to use an image compressor to 20KB
 
-The primary high-intent workflow on the site is the [image compressor to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb) page. This is the right starting point when a portal gives a strict maximum size and rejects anything larger.
+The primary high-intent workflow on the site is the [image compressor to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb) page. This is the right starting point when a portal gives a strict maximum size and rejects anything larger.
 
 Common examples include:
 
@@ -69,21 +69,21 @@ A few honest points matter here:
 - JPG usually reaches 20KB more easily than PNG
 - if transparency is not required, JPG is often the most practical output
 
-If your result looks too soft, do not just keep lowering quality. Move to the [image resizer](https://www.reduceimagesizeonline.com/image-resizer), reduce the dimensions slightly, then compress again. That usually produces a cleaner file.
+If your result looks too soft, do not just keep lowering quality. Move to the [image resizer](https://www.imageformatconverter.in/image-resizer), reduce the dimensions slightly, then compress again. That usually produces a cleaner file.
 
 ## 2. When 50KB, 100KB, or 200KB is a better target
 
 Not every upload needs to be compressed to 20KB. In fact, forcing every image toward the smallest possible size often creates unnecessary quality loss. That is why the site also includes exact-size pages for:
 
-- [compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [compress image to 100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [compress image to 200KB](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
+- [compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [compress image to 100KB](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [compress image to 200KB](https://www.imageformatconverter.in/compress-image-to-200kb)
 
 Here is a practical way to think about them:
 
 ### Compress image to 50KB
 
-Use [compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb) when you need a light but still reasonably clear file for:
+Use [compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb) when you need a light but still reasonably clear file for:
 
 - forms
 - job applications
@@ -93,7 +93,7 @@ Use [compress image to 50KB](https://www.reduceimagesizeonline.com/compress-imag
 
 ### Compress image to 100KB
 
-Use [compress image to 100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb) when you need a more flexible balance between quality and size for:
+Use [compress image to 100KB](https://www.imageformatconverter.in/compress-image-to-100kb) when you need a more flexible balance between quality and size for:
 
 - profile images
 - general-purpose uploads
@@ -102,7 +102,7 @@ Use [compress image to 100KB](https://www.reduceimagesizeonline.com/compress-ima
 
 ### Compress image to 200KB
 
-Use [compress image to 200KB](https://www.reduceimagesizeonline.com/compress-image-to-200kb) when the goal is web performance without over-compressing:
+Use [compress image to 200KB](https://www.imageformatconverter.in/compress-image-to-200kb) when the goal is web performance without over-compressing:
 
 - blog images
 - landing page visuals
@@ -114,7 +114,7 @@ The key SEO and UX benefit here is clarity. The page names match the user’s ac
 
 ## 3. The main image compressor: best for flexible compression
 
-If the user does not know the exact final size yet, the [image compressor](https://www.reduceimagesizeonline.com/image-compressor) is the best place to start.
+If the user does not know the exact final size yet, the [image compressor](https://www.imageformatconverter.in/image-compressor) is the best place to start.
 
 This tool is ideal when you need:
 
@@ -140,13 +140,13 @@ If a visitor is searching for:
 - compress image online
 - reduce image size in KB
 
-then the [image compressor](https://www.reduceimagesizeonline.com/image-compressor) is usually the best transactional destination.
+then the [image compressor](https://www.imageformatconverter.in/image-compressor) is usually the best transactional destination.
 
 ## 4. Image resizer: when dimensions are the real problem
 
 A lot of image upload failures are not about file size alone. Sometimes the portal wants a very specific width and height, or the original image is simply too large for efficient compression.
 
-That is where the [image resizer](https://www.reduceimagesizeonline.com/image-resizer) becomes the right tool.
+That is where the [image resizer](https://www.imageformatconverter.in/image-resizer) becomes the right tool.
 
 Use it when you need to:
 
@@ -173,7 +173,7 @@ That flow is more honest about quality. A giant 4000px image forced down to 20KB
 
 ## 5. Image converter: JPG to PNG, PNG to JPG high quality, and WebP to JPG
 
-The [image converter](https://www.reduceimagesizeonline.com/image-converter) is important because compatibility is still a big problem across upload systems, browsers, apps, and document portals.
+The [image converter](https://www.imageformatconverter.in/image-converter) is important because compatibility is still a big problem across upload systems, browsers, apps, and document portals.
 
 ### JPG to PNG
 
@@ -199,7 +199,7 @@ JPG usually compresses more effectively than PNG for photographic images. If the
 
 ### WebP to JPG
 
-WebP is great for modern websites, but some older workflows still reject it. That makes [WebP to JPG](https://www.reduceimagesizeonline.com/image-converter) a very useful compatibility tool.
+WebP is great for modern websites, but some older workflows still reject it. That makes [WebP to JPG](https://www.imageformatconverter.in/image-converter) a very useful compatibility tool.
 
 This is common when:
 
@@ -218,7 +218,7 @@ In short:
 
 Sometimes the file size and format are fine, but the framing is wrong. A face is too far away, the subject is off-center, or the image includes distracting empty space.
 
-That is where the [crop image tool](https://www.reduceimagesizeonline.com/crop-image) helps.
+That is where the [crop image tool](https://www.imageformatconverter.in/crop-image) helps.
 
 Cropping is useful for:
 
@@ -232,7 +232,7 @@ A good crop can also help compression indirectly. When you remove unnecessary ba
 
 ## 7. Bulk image compressor: best for teams and repeated workflows
 
-If you have more than one image to prepare, using a single-file workflow over and over is slow and frustrating. That is why the [bulk image compressor](https://www.reduceimagesizeonline.com/bulk-image-compressor) matters.
+If you have more than one image to prepare, using a single-file workflow over and over is slow and frustrating. That is why the [bulk image compressor](https://www.imageformatconverter.in/bulk-image-compressor) matters.
 
 Use it when you need to:
 
@@ -252,7 +252,7 @@ This is especially useful for:
 
 ## 8. Rotate and flip image: fix orientation fast
 
-The [rotate and flip image](https://www.reduceimagesizeonline.com/rotate-flip-image) tool solves a simple but common issue: the image is technically fine, but it displays in the wrong orientation.
+The [rotate and flip image](https://www.imageformatconverter.in/rotate-flip-image) tool solves a simple but common issue: the image is technically fine, but it displays in the wrong orientation.
 
 This helps when:
 
@@ -265,7 +265,7 @@ It is a small tool, but it removes friction from the workflow and keeps the full
 
 ## 9. Background remover: cleaner subject, better presentations
 
-The [background remover](https://www.reduceimagesizeonline.com/background-remover) is useful when the subject matters more than the surrounding scene.
+The [background remover](https://www.imageformatconverter.in/background-remover) is useful when the subject matters more than the surrounding scene.
 
 It works well for:
 
@@ -286,7 +286,7 @@ That honesty is important for trust. Users should know what the tool does well a
 
 ## 10. Image upscaler: when you need a larger output
 
-The [image upscaler](https://www.reduceimagesizeonline.com/image-upscaler) is useful when a small image needs to be presented at a larger size without looking as rough as a raw stretched file.
+The [image upscaler](https://www.imageformatconverter.in/image-upscaler) is useful when a small image needs to be presented at a larger size without looking as rough as a raw stretched file.
 
 Use it for:
 
@@ -303,14 +303,14 @@ Here is the simplest way to choose the right tool:
 
 | Goal | Best tool |
 |------|-----------|
-| Strict portal limit | [Compress image to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb) |
-| Form upload under 50KB | [Compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb) |
-| Flexible website compression | [Image compressor](https://www.reduceimagesizeonline.com/image-compressor) |
-| Resize passport or social image | [Image resizer](https://www.reduceimagesizeonline.com/image-resizer) |
-| JPG to PNG or WebP to JPG | [Image converter](https://www.reduceimagesizeonline.com/image-converter) |
-| Clean product cutout | [Background remover](https://www.reduceimagesizeonline.com/background-remover) |
-| Fix image orientation | [Rotate and flip image](https://www.reduceimagesizeonline.com/rotate-flip-image) |
-| Process many images together | [Bulk image compressor](https://www.reduceimagesizeonline.com/bulk-image-compressor) |
+| Strict portal limit | [Compress image to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb) |
+| Form upload under 50KB | [Compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb) |
+| Flexible website compression | [Image compressor](https://www.imageformatconverter.in/image-compressor) |
+| Resize passport or social image | [Image resizer](https://www.imageformatconverter.in/image-resizer) |
+| JPG to PNG or WebP to JPG | [Image converter](https://www.imageformatconverter.in/image-converter) |
+| Clean product cutout | [Background remover](https://www.imageformatconverter.in/background-remover) |
+| Fix image orientation | [Rotate and flip image](https://www.imageformatconverter.in/rotate-flip-image) |
+| Process many images together | [Bulk image compressor](https://www.imageformatconverter.in/bulk-image-compressor) |
 
 ## 12. Tool pages for action, blog pages for guidance
 
@@ -320,23 +320,23 @@ One of the biggest content mistakes image sites make is mixing informational and
 
 Use tool pages when the user is ready to act:
 
-- [image compressor](https://www.reduceimagesizeonline.com/image-compressor)
-- [compress image to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
-- [compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [compress image to 100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [compress image to 200KB](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
-- [image resizer](https://www.reduceimagesizeonline.com/image-resizer)
-- [image converter](https://www.reduceimagesizeonline.com/image-converter)
+- [image compressor](https://www.imageformatconverter.in/image-compressor)
+- [compress image to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb)
+- [compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [compress image to 100KB](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [compress image to 200KB](https://www.imageformatconverter.in/compress-image-to-200kb)
+- [image resizer](https://www.imageformatconverter.in/image-resizer)
+- [image converter](https://www.imageformatconverter.in/image-converter)
 
 ### Blog pages
 
 Use blog pages when the user is still learning or comparing:
 
-- [how to reduce image size online](https://www.reduceimagesizeonline.com/blog/how-to-reduce-image-size)
-- [how to reduce image size in KB](https://www.reduceimagesizeonline.com/blog/reduce-image-size-in-kb)
-- [reduce image size to 50KB online](https://www.reduceimagesizeonline.com/blog/reduce-image-size-to-50kb-online)
-- [reduce image size to 100KB online](https://www.reduceimagesizeonline.com/blog/reduce-image-size-to-100kb-online)
-- [reduce image size without losing quality](https://www.reduceimagesizeonline.com/blog/reduce-image-size-without-losing-quality)
+- [how to reduce image size online](https://www.imageformatconverter.in/blog/how-to-reduce-image-size)
+- [how to reduce image size in KB](https://www.imageformatconverter.in/blog/reduce-image-size-in-kb)
+- [reduce image size to 50KB online](https://www.imageformatconverter.in/blog/reduce-image-size-to-50kb-online)
+- [reduce image size to 100KB online](https://www.imageformatconverter.in/blog/reduce-image-size-to-100kb-online)
+- [reduce image size without losing quality](https://www.imageformatconverter.in/blog/reduce-image-size-without-losing-quality)
 
 This gives search engines and users a cleaner path:
 
@@ -359,6 +359,6 @@ Those details help users make better decisions, and they also improve the credib
 
 ## Final recommendation
 
-If your main goal is Indian form uploads or strict size limits, start with [compress image to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb). If you need more control over the output, move to the [image compressor](https://www.reduceimagesizeonline.com/image-compressor). If dimensions are the problem, use the [image resizer](https://www.reduceimagesizeonline.com/image-resizer). If format compatibility is the issue, use the [image converter](https://www.reduceimagesizeonline.com/image-converter). If presentation matters, continue with the [background remover](https://www.reduceimagesizeonline.com/background-remover) or [crop image tool](https://www.reduceimagesizeonline.com/crop-image).
+If your main goal is Indian form uploads or strict size limits, start with [compress image to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb). If you need more control over the output, move to the [image compressor](https://www.imageformatconverter.in/image-compressor). If dimensions are the problem, use the [image resizer](https://www.imageformatconverter.in/image-resizer). If format compatibility is the issue, use the [image converter](https://www.imageformatconverter.in/image-converter). If presentation matters, continue with the [background remover](https://www.imageformatconverter.in/background-remover) or [crop image tool](https://www.imageformatconverter.in/crop-image).
 
 That tool-first system is faster, cleaner, and more useful than guessing.

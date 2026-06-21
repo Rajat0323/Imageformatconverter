@@ -11,9 +11,9 @@ Large images slow down websites, make forms fail, and create bigger email attach
 
 Start here:
 
-- [Open the main compressor](https://www.reduceimagesizeonline.com/image-compressor)
-- [Compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress image to 100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
+- [Open the main compressor](https://www.imageformatconverter.in/image-compressor)
+- [Compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress image to 100KB](https://www.imageformatconverter.in/compress-image-to-100kb)
 
 ## Why reducing image size matters
 
@@ -67,10 +67,10 @@ Check the original size, compressed size, and preview before downloading the res
 
 ## Internal resources
 
-- [Reduce image size in KB](https://www.reduceimagesizeonline.com/blog/reduce-image-size-in-kb)
-- [Reduce image size to 50KB](https://www.reduceimagesizeonline.com/blog/reduce-image-size-to-50kb-online)
-- [Reduce image size to 100KB](https://www.reduceimagesizeonline.com/blog/reduce-image-size-to-100kb-online)
-- [Compress image for website upload](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
+- [Reduce image size in KB](https://www.imageformatconverter.in/blog/reduce-image-size-in-kb)
+- [Reduce image size to 50KB](https://www.imageformatconverter.in/blog/reduce-image-size-to-50kb-online)
+- [Reduce image size to 100KB](https://www.imageformatconverter.in/blog/reduce-image-size-to-100kb-online)
+- [Compress image for website upload](https://www.imageformatconverter.in/compress-image-to-200kb)
 
 ## FAQ
 

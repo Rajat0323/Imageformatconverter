@@ -20,7 +20,20 @@ const excludedSlugs = new Set([
   "compress-to-200kb",
   "compress-image-for-ssc-form",
   "compress-image-for-upsc-form",
-  "png-to-jpg",
+  "compress-image",
+  "compress",
+  "resize",
+  "png-to-jpg-converter",
+  "jpg-to-png-converter",
+  "webp-to-jpg-converter",
+  "jpg-to-webp-converter",
+  "png-to-webp-converter",
+  "webp-to-png-converter",
+  "heic-to-jpg-converter",
+  "bmp-to-jpg-converter",
+  "tiff-to-jpg-converter",
+  "heic-to-png-converter",
+  "pdf-compressor-200kb",
 ]);
 
 const staticRoutes: Omit<IndexableUrl, "url">[] = [

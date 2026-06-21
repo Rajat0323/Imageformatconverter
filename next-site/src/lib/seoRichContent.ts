@@ -51,7 +51,7 @@ function introSections(ctx: SeoPageContext): SeoSection[] {
       level: 2,
       paragraphs: [
         `${topic} is one of the most searched image workflows online because upload portals, social platforms, CMS dashboards, and email clients all enforce strict file-size and format rules. ${description}`,
-        `${heroCopy} ReduceImageSize helps global users solve this without installing desktop software, creating accounts, or sending private photos to unknown servers. Everything runs locally in the browser, which makes the workflow faster for one-off uploads and safer for sensitive documents such as ID scans, profile photos, and product images.`,
+        `${heroCopy} ImageFormatConverter helps global users solve this without installing desktop software, creating accounts, or sending private photos to unknown servers. Everything runs locally in the browser, which makes the workflow faster for one-off uploads and safer for sensitive documents such as ID scans, profile photos, and product images.`,
         `Whether you are preparing images for a government form, an e-commerce listing, a blog post, or a messaging app, ${toolLabel.toLowerCase()} gives you a predictable starting point. You can upload JPG, PNG, WebP, and HEIC in most flows, preview the output, and download when the result matches your target.`,
       ],
     },
@@ -163,7 +163,7 @@ function platformSections(ctx: SeoPageContext): SeoSection[] {
       heading: "Forms, exams, and application portals",
       level: 3,
       paragraphs: [
-        "Government and job portals frequently enforce strict KB limits such as 20KB, 50KB, or 100KB. Use exact-size tools on ReduceImageSize and verify dimensions if the portal specifies width and height in pixels.",
+        "Government and job portals frequently enforce strict KB limits such as 20KB, 50KB, or 100KB. Use exact-size tools on ImageFormatConverter and verify dimensions if the portal specifies width and height in pixels.",
         "Exam registration systems often require plain backgrounds and specific facial visibility. Prepare photos in good lighting before compression so aggressive KB targets do not destroy important detail.",
       ],
     },
@@ -189,15 +189,15 @@ function extendedGuideSections(ctx: SeoPageContext): SeoSection[] {
       level: 2,
       paragraphs: [
         `Online image workflows changed rapidly as mobile uploads, AI-assisted editing, and strict portal limits became normal. ${topic} is no longer a niche task reserved for designers—it is a daily requirement for students, sellers, recruiters, bloggers, and anyone submitting documents digitally.`,
-        `${modeNote} ReduceImageSize publishes dedicated pages like this one because generic advice rarely matches real upload rules. Search engines also reward pages that answer a specific query thoroughly, which is why this guide goes beyond a short FAQ.`,
-        `Use the sections below as a reference you can return to whenever a platform updates its limits. Bookmark this page, share it with teammates, and pair it with related tools on ReduceImageSize to build a repeatable pipeline from capture to publish.`,
+        `${modeNote} ImageFormatConverter publishes dedicated pages like this one because generic advice rarely matches real upload rules. Search engines also reward pages that answer a specific query thoroughly, which is why this guide goes beyond a short FAQ.`,
+        `Use the sections below as a reference you can return to whenever a platform updates its limits. Bookmark this page, share it with teammates, and pair it with related tools on ImageFormatConverter to build a repeatable pipeline from capture to publish.`,
       ],
     },
     {
       heading: "Privacy, security, and local browser processing",
       level: 2,
       paragraphs: [
-        "Many online image tools upload files to remote servers for processing. That creates privacy risk for ID scans, medical records, confidential product shots, and personal portraits. ReduceImageSize processes images locally in your browser using Web Workers and Canvas APIs whenever possible.",
+        "Many online image tools upload files to remote servers for processing. That creates privacy risk for ID scans, medical records, confidential product shots, and personal portraits. ImageFormatConverter processes images locally in your browser using Web Workers and Canvas APIs whenever possible.",
         "Local processing means your files are not stored on our servers for editing. The trade-off is that very large batches may be slower on low-end devices, which is why bulk workflows offer optional batch controls while single-file tools prioritize precision.",
         "For compliance-sensitive workflows, still verify your organization's policy before using any web tool. When in doubt, process on a trusted device and delete downloads after upload confirmation.",
       ],
@@ -231,7 +231,7 @@ function extendedGuideSections(ctx: SeoPageContext): SeoSection[] {
       level: 2,
       paragraphs: [
         `Desktop apps such as Photoshop, GIMP, and Affinity Photo offer deep control for professionals. Browser tools like ${toolLabel} win on speed, accessibility, and zero-install workflows. Most users need a reliable result in under a minute—not a multi-hour editing session.`,
-        "Use ReduceImageSize when you have a defined target: a KB cap, pixel box, format conversion, or quick cutout. Move to desktop software when you need layered compositing, advanced retouching, or brand-managed color pipelines.",
+        "Use ImageFormatConverter when you have a defined target: a KB cap, pixel box, format conversion, or quick cutout. Move to desktop software when you need layered compositing, advanced retouching, or brand-managed color pipelines.",
         "Many teams combine both: browser tools for daily uploads and desktop apps for campaign assets. Keeping this page in your workflow bookmarks saves time on repetitive portal submissions.",
       ],
     },
@@ -248,7 +248,7 @@ function deepDiveSections(ctx: SeoPageContext): SeoSection[] {
       level: 2,
       paragraphs: [
         `Search engines crawl billions of pages, but they prioritize fast, helpful experiences. When you ${topic.toLowerCase()}, you reduce payload size, improve Largest Contentful Paint, and make pages easier for Googlebot to render on mobile. Those signals matter for competitive keywords such as ${keywordLine}.`,
-        `Dedicated tool pages like /${slug} also create strong topical relevance. Instead of one generic landing page trying to rank for every image query, ReduceImageSize publishes focused URLs that match exact user intent. That structure helps search engines index pages more frequently and surface the right result for each long-tail search.`,
+        `Dedicated tool pages like /${slug} also create strong topical relevance. Instead of one generic landing page trying to rank for every image query, ImageFormatConverter publishes focused URLs that match exact user intent. That structure helps search engines index pages more frequently and surface the right result for each long-tail search.`,
         `Combine on-page SEO (clear headings, FAQ schema, how-to steps, and 3000+ words of useful guidance) with technical SEO (fast hosting, sitemap.xml, robots.txt, canonical tags, and Open Graph metadata). This page includes all of those elements so crawlers understand what the page does and who it helps.`,
         `Remember that rankings also depend on backlinks, brand searches, and competition. High-quality content increases the chance users stay on-page, share the tool, and return—engagement patterns that reinforce relevance over time.`,
       ],
@@ -284,7 +284,7 @@ function deepDiveSections(ctx: SeoPageContext): SeoSection[] {
       level: 2,
       paragraphs: [
         `Blog posts, landing pages, and email campaigns all benefit from consistent image optimization. Hero images should load in under a second on 4G networks. Thumbnails should match display size to avoid wasted pixels. Screenshots should use WebP when your CMS supports it.`,
-        `Pair ${topic.toLowerCase()} with descriptive alt text, meaningful file names, and internal links to related tools on ReduceImageSize. That creates a content cluster search engines can follow, improving discoverability across your entire site—not just this page.`,
+        `Pair ${topic.toLowerCase()} with descriptive alt text, meaningful file names, and internal links to related tools on ImageFormatConverter. That creates a content cluster search engines can follow, improving discoverability across your entire site—not just this page.`,
         `Track Core Web Vitals in Google Search Console after deploying optimized assets. Improvements often appear within weeks as crawlers recrawl updated pages and users experience faster loads.`,
       ],
     },
@@ -309,7 +309,7 @@ function technicalSections(ctx: SeoPageContext): SeoSection[] {
       paragraphs: [
         `Understanding how formats interact with compression helps you get better results from ${topic.toLowerCase()}. JPG uses lossy compression and is ideal for photographs. PNG is lossless and better for graphics with text or transparency. WebP often delivers the smallest size at similar visual quality.`,
         `Quality settings control how aggressively a compressor removes detail. A small drop in quality can produce a large drop in KB size. Preview is essential because the right setting depends on image content, not a universal number.`,
-        `This page targets searches such as ${keywordLine}. Each query reflects a real upload constraint, which is why ReduceImageSize publishes dedicated landing pages instead of one generic compressor.`,
+        `This page targets searches such as ${keywordLine}. Each query reflects a real upload constraint, which is why ImageFormatConverter publishes dedicated landing pages instead of one generic compressor.`,
       ],
     },
     {
@@ -353,12 +353,12 @@ function buildExtendedFaqs(ctx: SeoPageContext) {
   const { topic, toolLabel } = ctx;
   return [
     {
-      question: `Is ${topic.toLowerCase()} free on ReduceImageSize?`,
+      question: `Is ${topic.toLowerCase()} free on ImageFormatConverter?`,
       answer: `Yes. ${toolLabel} is completely free to use with no sign-up, subscription, or watermark. Processing happens locally in your browser, so you can optimize personal, commercial, and confidential images without creating an account.`,
     },
     {
       question: "Are my images stored on your servers?",
-      answer: "No. Files are processed locally on your device using browser APIs and Web Workers. ReduceImageSize does not upload your images for storage or training. Close the tab when finished if you are working with sensitive documents.",
+      answer: "No. Files are processed locally on your device using browser APIs and Web Workers. ImageFormatConverter does not upload your images for storage or training. Close the tab when finished if you are working with sensitive documents.",
     },
     {
       question: "Which formats can I upload?",
@@ -370,7 +370,7 @@ function buildExtendedFaqs(ctx: SeoPageContext) {
     },
     {
       question: "Can I use the output commercially?",
-      answer: "You retain rights to your own images. ReduceImageSize provides the processing tool only; content rights depend on your source assets, licenses, and model releases. Optimized files are yours to use in stores, ads, and client deliverables.",
+      answer: "You retain rights to your own images. ImageFormatConverter provides the processing tool only; content rights depend on your source assets, licenses, and model releases. Optimized files are yours to use in stores, ads, and client deliverables.",
     },
     {
       question: "Does this work on mobile phones?",
@@ -389,7 +389,7 @@ function buildExtendedFaqs(ctx: SeoPageContext) {
       answer: "Use the bulk image compressor for batches. Single-file tools focus on precise controls for one asset at a time, which is better for passport photos, hero images, and strict KB targets that need individual review.",
     },
     {
-      question: "How does ReduceImageSize help Google rankings?",
+      question: "How does ImageFormatConverter help Google rankings?",
       answer: `Faster pages improve Core Web Vitals, which search engines use as quality signals. ${topic} reduces transfer size before images reach your CDN. Dedicated landing pages like this one also match search intent, which supports better indexing and click-through rates when titles and descriptions align with user queries.`,
     },
     {
@@ -409,7 +409,7 @@ function buildExtendedFaqs(ctx: SeoPageContext) {
       answer: "Most single images process in a few seconds on modern devices. Very large files or strict KB targets may require multiple passes. Resize oversized photos first to speed up iteration and improve quality.",
     },
     {
-      question: "Does ReduceImageSize add watermarks?",
+      question: "Does ImageFormatConverter add watermarks?",
       answer: "No. Downloaded files are clean without branding overlays. The tool is free to use without forcing watermarks or sign-up walls.",
     },
     {
@@ -429,11 +429,11 @@ function relatedSection(ctx: SeoPageContext): SeoSection {
     .map((link) => `${link.label} (${link.href})`)
     .join(", ");
   return {
-    heading: "Related ReduceImageSize tools",
+    heading: "Related ImageFormatConverter tools",
     level: 2,
     paragraphs: [
       `Users who search for ${ctx.topic.toLowerCase()} often continue with related workflows on the same site. Explore ${links} to build a complete image pipeline from capture to publish.`,
-      "ReduceImageSize is designed as a global image tool hub with dedicated pages for exact KB targets, social platforms, format conversion, and pixel-perfect resizing.",
+      "ImageFormatConverter is designed as a global image tool hub with dedicated pages for exact KB targets, social platforms, format conversion, and pixel-perfect resizing.",
     ],
   };
 }

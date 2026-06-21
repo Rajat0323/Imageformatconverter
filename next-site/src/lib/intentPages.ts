@@ -2,6 +2,7 @@ import {
   aiIntentPages,
   converterIntentPages,
   indiaKeywordIntentPages,
+  pdfIntentPages,
   platformIntentPages,
   resizeIntentPages,
 } from "./pageBuilders";
@@ -151,7 +152,7 @@ export const intentPages: IntentPage[] = [
     relatedLinks: [
       { href: "/compress-image-for-email", label: "Compress image for email" },
       { href: "/compress-image-for-website-upload", label: "Compress image for website upload" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WEBP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WEBP converter" },
     ],
   },
   {
@@ -190,8 +191,8 @@ export const intentPages: IntentPage[] = [
     ],
     relatedLinks: [
       { href: "/compress-image-for-website-upload", label: "Compress image for website upload" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WEBP converter" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/jpg-to-webp", label: "JPG to WEBP converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
     ],
   },
   {
@@ -431,7 +432,7 @@ export const intentPages: IntentPage[] = [
     relatedLinks: [
       { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
     ],
   },
   {
@@ -470,12 +471,12 @@ export const intentPages: IntentPage[] = [
     ],
     relatedLinks: [
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WEBP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WEBP converter" },
       { href: "/blog/how-to-reduce-image-size", label: "Read the image optimization guide" },
     ],
   },
   {
-    slug: "jpg-to-webp-converter",
+    slug: "jpg-to-webp",
     title: "JPG to WEBP Converter Online | Convert and Compress JPG Images",
     description:
       "Convert JPG to WEBP online in your browser. Reduce image size and prepare faster-loading assets for websites and marketing pages.",
@@ -511,11 +512,11 @@ export const intentPages: IntentPage[] = [
     relatedLinks: [
       { href: "/compress-image-for-website-upload", label: "Compress image for website upload" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
     ],
   },
   {
-    slug: "png-to-jpg-converter",
+    slug: "png-to-jpg",
     title: "PNG to JPG Converter Online | Reduce PNG File Size Fast",
     description:
       "Convert PNG to JPG online and reduce image file size quickly. Ideal for email, forms, and websites that do not need transparency.",
@@ -551,7 +552,7 @@ export const intentPages: IntentPage[] = [
     relatedLinks: [
       { href: "/compress-image-for-email", label: "Compress image for email" },
       { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WEBP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WEBP converter" },
     ],
   },
   ...converterIntentPages,
@@ -559,6 +560,7 @@ export const intentPages: IntentPage[] = [
   ...resizeIntentPages,
   ...aiIntentPages,
   ...indiaKeywordIntentPages,
+  ...pdfIntentPages,
 ];
 
 export function getIntentPage(slug: string) {

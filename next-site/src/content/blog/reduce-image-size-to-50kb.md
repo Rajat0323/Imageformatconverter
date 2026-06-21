@@ -11,8 +11,8 @@ Many online forms ask for a passport-style photo that must stay under a file-siz
 
 Start here:
 
-- [Passport photo size maker](https://www.reduceimagesizeonline.com/image-resizer)
-- [Compress image to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
+- [Passport photo size maker](https://www.imageformatconverter.in/image-resizer)
+- [Compress image to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
 
 ## Why passport photos often fail upload
 
@@ -38,9 +38,9 @@ Passport photos are often taken on modern phones, which means:
 
 ## Related pages
 
-- [Compress image for UPSC form](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress image for SSC form](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress signature for form](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
+- [Compress image for UPSC form](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress image for SSC form](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress signature for form](https://www.imageformatconverter.in/image-compressor-to-20kb)
 
 ## FAQ
 

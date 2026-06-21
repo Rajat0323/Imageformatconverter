@@ -9,8 +9,8 @@ date: "2026-03-20"
 
 A 50KB limit shows up often in government forms, job applications, and passport-photo workflows. If you need to reduce image size to 50KB online, start with a tool that already supports a 50KB preset.
 
-- [Open the 50KB compressor](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Open the main compressor](https://www.reduceimagesizeonline.com/image-compressor)
+- [Open the 50KB compressor](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Open the main compressor](https://www.imageformatconverter.in/image-compressor)
 
 ## Common use cases for 50KB images
 
@@ -36,10 +36,10 @@ A 50KB limit shows up often in government forms, job applications, and passport-
 
 ## Related resources
 
-- [Passport photo size maker](https://www.reduceimagesizeonline.com/image-resizer)
-- [Compress image for SSC form](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress image for UPSC form](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress image for job application](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
+- [Passport photo size maker](https://www.imageformatconverter.in/image-resizer)
+- [Compress image for SSC form](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress image for UPSC form](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress image for job application](https://www.imageformatconverter.in/compress-image-to-50kb)
 
 ## FAQ
 

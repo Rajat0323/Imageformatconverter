@@ -107,12 +107,12 @@ export default function BlogPost({ params }: Props) {
   ];
   const relatedToolJourneys = [
     {
-      href: "/jpg-to-webp-converter",
+      href: "/jpg-to-webp",
       title: "JPG to WEBP converter",
       copy: "Pair file-size guides with modern format conversion when website speed matters.",
     },
     {
-      href: "/png-to-jpg-converter",
+      href: "/png-to-jpg",
       title: "PNG to JPG converter",
       copy: "Useful when PNG files stay too large and you need a smaller upload-friendly format.",
     },

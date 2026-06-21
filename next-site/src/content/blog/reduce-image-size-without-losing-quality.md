@@ -30,10 +30,10 @@ Quality drops too much when people:
 
 Common targets include:
 
-- [20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
-- [50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [200KB](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
+- [20KB](https://www.imageformatconverter.in/image-compressor-to-20kb)
+- [50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [100KB](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [200KB](https://www.imageformatconverter.in/compress-image-to-200kb)
 
 ### Resize large images
 
@@ -49,10 +49,10 @@ A huge phone photo will always be harder to compress cleanly than a properly siz
 
 ## Open the right workflow
 
-- [Open the main compressor](https://www.reduceimagesizeonline.com/image-compressor)
-- [Compress image for website upload](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
-- [Compress image for email](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [JPG to WEBP converter](https://www.reduceimagesizeonline.com/image-converter)
+- [Open the main compressor](https://www.imageformatconverter.in/image-compressor)
+- [Compress image for website upload](https://www.imageformatconverter.in/compress-image-to-200kb)
+- [Compress image for email](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [JPG to WEBP converter](https://www.imageformatconverter.in/image-converter)
 
 ## FAQ
 

@@ -180,17 +180,21 @@ export function buildResizeIntent(spec: ResizeSpec): IntentPage {
 
 export const extraExactKbTools: ToolPage[] = [
   buildExactKbTool(10, "Ideal for tiny signatures, icons, and strict upload portals."),
+  buildExactKbTool(25, "Useful for portals with limits between 20KB and 30KB."),
   buildExactKbTool(40, "Useful for application forms, ID uploads, and compact profile photos."),
   buildExactKbTool(60, "A practical middle target between 50KB and 80KB upload limits."),
+  buildExactKbTool(70, "Strong choice when your form limit sits between 50KB and 80KB."),
   buildExactKbTool(80, "Great for profile photos when you need more detail than 50KB allows."),
+  buildExactKbTool(120, "Helpful when portals allow slightly more than 100KB."),
   buildExactKbTool(150, "Helpful for avatars, thumbnails, and lightweight CMS uploads."),
+  buildExactKbTool(250, "Ideal for CMS uploads and portals with a 250KB ceiling."),
   buildExactKbTool(500, "Strong choice for e-commerce galleries and content-heavy pages."),
   buildExactKbTool(1024, "Perfect for email attachments, blogs, and portals with a 1MB cap."),
 ];
 
 export const converterIntentPages: IntentPage[] = [
   buildConverterIntent({
-    slug: "jpg-to-png-converter",
+    slug: "jpg-to-png",
     from: "JPG",
     to: "PNG",
     format: "image/png",
@@ -200,13 +204,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Upload a JPG, export PNG, and download the converted file without sending images to a cloud server.",
     introCopy: "PNG is useful when you need a lossless format or plan to edit the image further before publishing.",
     related: [
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
       { href: "/image-converter", label: "All image formats" },
     ],
   }),
   buildConverterIntent({
-    slug: "webp-to-jpg-converter",
+    slug: "webp-to-jpg",
     from: "WebP",
     to: "JPG",
     format: "image/jpeg",
@@ -216,13 +220,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Turn modern WebP files into widely supported JPG images with a fast browser-based converter.",
     introCopy: "Many email clients and legacy upload forms still prefer JPG. This workflow helps you convert quickly before sharing.",
     related: [
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
-      { href: "/webp-to-png-converter", label: "WebP to PNG converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
+      { href: "/webp-to-png", label: "WebP to PNG converter" },
       { href: "/compress-image-for-email", label: "Compress for email" },
     ],
   }),
   buildConverterIntent({
-    slug: "png-to-webp-converter",
+    slug: "png-to-webp",
     from: "PNG",
     to: "WebP",
     format: "image/webp",
@@ -232,13 +236,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Export WebP images from PNG sources to improve page speed without rebuilding your assets manually.",
     introCopy: "WebP often delivers smaller files than PNG for web publishing, especially when transparency is not required.",
     related: [
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
       { href: "/compress-image-for-website-upload", label: "Compress for website" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
     ],
   }),
   buildConverterIntent({
-    slug: "webp-to-png-converter",
+    slug: "webp-to-png",
     from: "WebP",
     to: "PNG",
     format: "image/png",
@@ -248,13 +252,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Switch WebP files to PNG when you need broader software support or lossless editing flexibility.",
     introCopy: "PNG remains a dependable format for design handoffs, screenshots, and workflows that require transparency.",
     related: [
-      { href: "/webp-to-jpg-converter", label: "WebP to JPG converter" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/webp-to-jpg", label: "WebP to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
       { href: "/image-converter", label: "Image converter hub" },
     ],
   }),
   buildConverterIntent({
-    slug: "heic-to-jpg-converter",
+    slug: "heic-to-jpg",
     from: "HEIC",
     to: "JPG",
     format: "image/jpeg",
@@ -264,13 +268,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Upload HEIC images, convert to JPG in your browser, and download files that work everywhere.",
     introCopy: "HEIC saves space on phones, but many websites and apps still expect JPG. This converter closes that gap instantly.",
     related: [
-      { href: "/heic-to-png-converter", label: "HEIC to PNG converter" },
+      { href: "/heic-to-png", label: "HEIC to PNG converter" },
       { href: "/compress-image-for-instagram", label: "Compress for Instagram" },
       { href: "/compress-image-for-email", label: "Compress for email" },
     ],
   }),
   buildConverterIntent({
-    slug: "heic-to-png-converter",
+    slug: "heic-to-png",
     from: "HEIC",
     to: "PNG",
     format: "image/png",
@@ -280,13 +284,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Transform HEIC photos into PNG files directly in the browser when you need a flexible editing format.",
     introCopy: "PNG is a strong choice when you plan to edit iPhone photos or preserve more detail before compression.",
     related: [
-      { href: "/heic-to-jpg-converter", label: "HEIC to JPG converter" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/heic-to-jpg", label: "HEIC to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
       { href: "/image-converter", label: "Image converter hub" },
     ],
   }),
   buildConverterIntent({
-    slug: "bmp-to-jpg-converter",
+    slug: "bmp-to-jpg",
     from: "BMP",
     to: "JPG",
     format: "image/jpeg",
@@ -296,13 +300,13 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Turn oversized BMP images into practical JPG files with a simple browser conversion workflow.",
     introCopy: "BMP files are often much larger than necessary. Converting to JPG is one of the fastest ways to make them upload-friendly.",
     related: [
-      { href: "/tiff-to-jpg-converter", label: "TIFF to JPG converter" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/tiff-to-jpg", label: "TIFF to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
     ],
   }),
   buildConverterIntent({
-    slug: "tiff-to-jpg-converter",
+    slug: "tiff-to-jpg",
     from: "TIFF",
     to: "JPG",
     format: "image/jpeg",
@@ -312,7 +316,7 @@ export const converterIntentPages: IntentPage[] = [
     heroCopy: "Export TIFF scans and photos as JPG when you need a smaller, more compatible file format.",
     introCopy: "TIFF is common in scanning workflows, but JPG is easier to share online. Convert first, then compress if needed.",
     related: [
-      { href: "/bmp-to-jpg-converter", label: "BMP to JPG converter" },
+      { href: "/bmp-to-jpg", label: "BMP to JPG converter" },
       { href: "/compress-image-for-email", label: "Compress for email" },
       { href: "/compress-image-to-500kb", label: "Compress to 500KB" },
     ],
@@ -337,7 +341,7 @@ export const platformIntentPages: IntentPage[] = [
     ],
     related: [
       { href: "/resize-image-to-1080x1080", label: "Resize to 1080×1080" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
     ],
   }),
@@ -421,7 +425,7 @@ export const platformIntentPages: IntentPage[] = [
     ],
     related: [
       { href: "/resize-image-to-800x800", label: "Resize to 800×800" },
-      { href: "/heic-to-jpg-converter", label: "HEIC to JPG converter" },
+      { href: "/heic-to-jpg", label: "HEIC to JPG converter" },
       { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
     ],
   }),
@@ -443,7 +447,7 @@ export const platformIntentPages: IntentPage[] = [
     related: [
       { href: "/compress-image-to-500kb", label: "Compress to 500KB" },
       { href: "/resize-image-to-400x400", label: "Resize to 400×400" },
-      { href: "/png-to-jpg-converter", label: "PNG to JPG converter" },
+      { href: "/png-to-jpg", label: "PNG to JPG converter" },
     ],
   }),
   buildPlatformIntent({
@@ -463,7 +467,7 @@ export const platformIntentPages: IntentPage[] = [
     ],
     related: [
       { href: "/compress-image-for-amazon", label: "Compress for Amazon" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
       { href: "/bulk-image-compressor", label: "Bulk image compressor" },
     ],
   }),
@@ -485,7 +489,7 @@ export const platformIntentPages: IntentPage[] = [
     related: [
       { href: "/compress-image-for-website-upload", label: "Compress for website upload" },
       { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
-      { href: "/png-to-webp-converter", label: "PNG to WebP converter" },
+      { href: "/png-to-webp", label: "PNG to WebP converter" },
     ],
   }),
   buildPlatformIntent({
@@ -548,7 +552,7 @@ export const platformIntentPages: IntentPage[] = [
     related: [
       { href: "/compress-image-for-wordpress", label: "Compress for WordPress" },
       { href: "/compress-image-for-website-upload", label: "Website upload workflow" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WebP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WebP converter" },
     ],
   }),
 ];
@@ -845,6 +849,101 @@ export const aiIntentPages: IntentPage[] = [
       { href: "/free-ai-image-compressor", label: "Free AI compressor" },
     ],
   }),
+  buildAiIntent({
+    slug: "ai-passport-photo-maker",
+    title: "AI Passport Photo Maker Online Free | India Form Upload",
+    description:
+      "AI passport photo maker online free for India. Crop, remove background, and compress passport photos to 20KB or 50KB for government forms.",
+    heroTitle: "AI passport photo maker for Indian portals.",
+    heroCopy:
+      "Prepare passport-size photos with background cleanup and exact KB compression for exam and visa uploads.",
+    introCopy:
+      "Passport photo makers are heavily searched before SSC, UPSC, and visa deadlines. Pair background removal with 20KB or 50KB compression for portal-ready files.",
+    toolHref: "/background-remover",
+    toolLabel: "passport photo maker",
+    related: [
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/passport-photo-compressor-20kb", label: "Passport photo 20KB" },
+      { href: "/ai-background-remover-online", label: "AI background remover" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "ai-signature-compressor",
+    title: "AI Signature Compressor to 20KB Online Free | Exam Forms India",
+    description:
+      "AI signature compressor to 20KB online free. Reduce scanned signature size for SSC, UPSC, railway, and university form uploads in India.",
+    heroTitle: "AI signature compressor for 20KB upload limits.",
+    heroCopy:
+      "Compress signature scans toward 20KB with a fast browser workflow built for Indian exam and job portals.",
+    introCopy:
+      "Signature compression is one of the most urgent tasks before form deadlines. This page connects AI-intent searchers to the proven 20KB signature workflow.",
+    toolHref: "/image-compressor-to-20kb",
+    toolLabel: "AI signature compressor",
+    related: [
+      { href: "/signature-compressor-to-20kb", label: "Signature compressor 20KB" },
+      { href: "/resize-signature-to-20kb", label: "Resize signature to 20KB" },
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/ai-image-compressor", label: "AI image compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "ai-image-resizer-online",
+    title: "AI Image Resizer Online Free | Resize Photo for Forms India",
+    description:
+      "AI image resizer online free. Resize passport photos, signatures, and profile images to exact pixels for SSC, UPSC, and KYC uploads in India.",
+    heroTitle: "AI image resizer for portal dimensions.",
+    heroCopy:
+      "Set exact width and height before compressing to 20KB, 50KB, or 100KB for government and job portal uploads.",
+    introCopy:
+      "Many rejected uploads fail on dimensions, not just file size. Resize first, then compress with exact-KB tools on ImageFormatConverter.",
+    toolHref: "/image-resizer",
+    toolLabel: "AI image resizer",
+    related: [
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/passport-photo-size-maker", label: "Passport photo size" },
+      { href: "/ai-image-compressor", label: "AI image compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "gemini-image-compressor-alternative",
+    title: "Gemini Image Compressor Alternative | Free KB Photo Reducer India",
+    description:
+      "Gemini image compressor alternative for India. Compress photos to 20KB, 50KB, and 100KB free online without AI chat limits or signup.",
+    heroTitle: "Free Gemini image compressor alternative.",
+    heroCopy:
+      "Use a dedicated browser compressor when Gemini or other AI chats cannot output exact KB files for form uploads.",
+    introCopy:
+      "Users search Gemini for image compression before exam and KYC deadlines. Dedicated tools deliver predictable KB output and instant download.",
+    toolHref: "/image-compressor",
+    toolLabel: "image compressor",
+    related: [
+      { href: "/chatgpt-image-compressor-alternative", label: "ChatGPT compressor alternative" },
+      { href: "/compress-image-to-100kb", label: "100KB compressor" },
+      { href: "/image-compressor-to-20kb", label: "20KB compressor" },
+      { href: "/free-ai-image-compressor", label: "Free AI compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "ai-photo-enhancer-free-india",
+    title: "AI Photo Enhancer Free India | Sharpen & Upscale Online",
+    description:
+      "AI photo enhancer free for India. Sharpen and upscale passport photos, signatures, and profile images before compressing for form uploads.",
+    heroTitle: "Free AI photo enhancer for Indian uploads.",
+    heroCopy:
+      "Enhance soft phone camera photos before compressing to 20KB, 50KB, or 100KB for SSC, UPSC, and KYC portals.",
+    introCopy:
+      "Photo enhancer searches spike when users need clearer passport or profile photos. The upscaler runs locally and pairs with KB-target compressors.",
+    toolHref: "/image-upscaler",
+    toolLabel: "AI photo enhancer",
+    related: [
+      { href: "/ai-image-enhancer-online", label: "AI image enhancer" },
+      { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/background-remover", label: "Background remover" },
+    ],
+  }),
 ];
 
 export const indiaKeywordIntentPages: IntentPage[] = [
@@ -900,8 +999,8 @@ export const indiaKeywordIntentPages: IntentPage[] = [
     toolLabel: "WEBP 100KB compressor",
     related: [
       { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
-      { href: "/jpg-to-webp-converter", label: "JPG to WEBP converter" },
-      { href: "/png-to-webp-converter", label: "PNG to WEBP converter" },
+      { href: "/jpg-to-webp", label: "JPG to WEBP converter" },
+      { href: "/png-to-webp", label: "PNG to WEBP converter" },
       { href: "/compress-image-for-website", label: "Compress for website" },
     ],
   }),
@@ -922,6 +1021,237 @@ export const indiaKeywordIntentPages: IntentPage[] = [
       { href: "/compress-image-to-150kb", label: "Compress to 150KB" },
       { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
       { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "photo-compressor-to-50kb",
+    title: "Photo Compressor to 50KB Online Free | Exam Form Upload India",
+    description:
+      "Photo compressor to 50KB online free. Reduce photo size for SSC, UPSC, scholarship, and job application forms in India.",
+    heroTitle: "Photo compressor to 50KB for Indian exam forms.",
+    heroCopy:
+      "Hit the 50KB target used on many state exam and scholarship portals with a fast mobile-friendly workflow.",
+    introCopy:
+      "Photo compressor to 50KB is a high-volume search before exam registrations. This page links to the dedicated 50KB tool with India-focused guidance.",
+    toolHref: "/compress-image-to-50kb",
+    toolLabel: "50KB photo compressor",
+    related: [
+      { href: "/compress-image-to-50kb", label: "Compress image to 50KB" },
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
+      { href: "/ai-photo-compressor-online", label: "AI photo compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "resize-signature-to-20kb",
+    title: "Resize Signature to 20KB Online Free | Form Upload India",
+    description:
+      "Resize signature to 20KB online free. Prepare scanned signatures for SSC, UPSC, railway, and university form uploads in India.",
+    heroTitle: "Resize and compress signature to 20KB.",
+    heroCopy:
+      "Crop empty space, resize dimensions, and compress signature scans to fit strict 20KB portal limits.",
+    introCopy:
+      "Resize signature to 20KB searches come from users whose scans include too much white space. Resize first, then compress to 20KB.",
+    toolHref: "/image-compressor-to-20kb",
+    toolLabel: "20KB signature tool",
+    related: [
+      { href: "/signature-compressor-to-20kb", label: "Signature compressor 20KB" },
+      { href: "/ai-signature-compressor", label: "AI signature compressor" },
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/passport-photo-compressor-20kb", label: "Passport photo 20KB" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "passport-photo-compressor-20kb",
+    title: "Passport Photo Compressor 20KB Online Free | India Forms",
+    description:
+      "Passport photo compressor 20KB online free. Reduce passport photo size for government exam, visa, and ID form uploads in India.",
+    heroTitle: "Compress passport photo to 20KB online.",
+    heroCopy:
+      "Prepare passport-size photos that meet strict 20KB limits on Indian government and exam portals.",
+    introCopy:
+      "Passport photo 20KB is a common requirement on exam and visa forms. Crop to passport dimensions, then use the 20KB preset.",
+    toolHref: "/image-compressor-to-20kb",
+    toolLabel: "passport photo 20KB compressor",
+    related: [
+      { href: "/image-compressor-to-20kb", label: "20KB compressor" },
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/ai-passport-photo-maker", label: "AI passport photo maker" },
+      { href: "/passport-photo-size-maker", label: "Passport photo size" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "aadhaar-photo-compressor",
+    title: "Aadhaar Photo Compressor Online Free | KYC Upload India",
+    description:
+      "Aadhaar photo compressor online free. Reduce photo size for Aadhaar update, KYC, and UIDAI portal uploads in India.",
+    heroTitle: "Compress photo for Aadhaar and KYC uploads.",
+    heroCopy:
+      "Reduce phone camera photos to 20KB, 50KB, or 100KB for Aadhaar and KYC portals without losing readable detail.",
+    introCopy:
+      "Aadhaar and KYC updates often reject oversized JPG files from phone cameras. Compress locally before uploading to UIDAI or bank portals.",
+    toolHref: "/compress-image-to-100kb",
+    toolLabel: "Aadhaar photo compressor",
+    related: [
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/pan-card-photo-compressor", label: "PAN card photo compressor" },
+      { href: "/ai-image-compressor", label: "AI image compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pan-card-photo-compressor",
+    title: "PAN Card Photo Compressor Online Free | NSDL Upload India",
+    description:
+      "PAN card photo compressor online free. Reduce photo size for PAN application, NSDL, and income tax portal uploads in India.",
+    heroTitle: "Compress photo for PAN card application.",
+    heroCopy:
+      "Prepare passport-style photos for PAN card and NSDL portals with exact KB compression in your browser.",
+    introCopy:
+      "PAN card applications require small JPG photos with clear facial detail. Compress after cropping to the portal dimensions.",
+    toolHref: "/compress-image-to-100kb",
+    toolLabel: "PAN card photo compressor",
+    related: [
+      { href: "/aadhaar-photo-compressor", label: "Aadhaar photo compressor" },
+      { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+      { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+      { href: "/passport-photo-compressor-20kb", label: "Passport photo 20KB" },
+    ],
+  }),
+];
+
+export const pdfIntentPages: IntentPage[] = [
+  buildAiIntent({
+    slug: "image-to-pdf",
+    title: "Image to PDF Converter Online Free | JPG PNG to PDF India",
+    description:
+      "Convert image to PDF online free. Turn JPG, PNG, and WEBP photos into PDF files for form uploads, documents, and sharing in India.",
+    heroTitle: "Convert images to PDF online.",
+    heroCopy:
+      "Combine photos into PDF format for portals that require document uploads instead of standalone images.",
+    introCopy:
+      "Many Indian application portals accept PDF attachments after photos are prepared. Convert images first, then compress PDF if needed.",
+    toolHref: "/image-converter",
+    toolLabel: "image to PDF converter",
+    related: [
+      { href: "/jpg-to-pdf", label: "JPG to PDF converter" },
+      { href: "/compress-image-to-100kb", label: "Compress image to 100KB" },
+      { href: "/pdf-to-jpg", label: "PDF to JPG converter" },
+      { href: "/image-compressor", label: "Image compressor" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "jpg-to-pdf",
+    title: "JPG to PDF Converter Online Free | Photo to PDF India",
+    description:
+      "Convert JPG to PDF online free. Turn JPEG photos into PDF documents for exam forms, job applications, and KYC uploads in India.",
+    heroTitle: "Convert JPG photos to PDF online.",
+    heroCopy:
+      "Export JPG images as PDF files when portals require a single document instead of a raw photo upload.",
+    introCopy:
+      "JPG to PDF is common for scholarship forms, job applications, and scanned document bundles on Indian portals.",
+    toolHref: "/image-converter",
+    toolLabel: "JPG to PDF converter",
+    related: [
+      { href: "/image-to-pdf", label: "Image to PDF" },
+      { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
+      { href: "/pdf-to-jpg", label: "PDF to JPG" },
+      { href: "/pdf-compressor-to-200kb", label: "Compress PDF to 200KB" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pdf-to-jpg",
+    title: "PDF to JPG Converter Online Free | Extract PDF Pages as Images",
+    description:
+      "Convert PDF to JPG online free. Extract PDF pages as JPG images for editing, compression, and form re-upload in India.",
+    heroTitle: "Convert PDF pages to JPG images.",
+    heroCopy:
+      "Extract images from PDF files, then compress to 20KB, 50KB, or 100KB for portal submissions.",
+    introCopy:
+      "PDF to JPG helps when you need to edit or re-compress a scanned document page before uploading to an exam or KYC portal.",
+    toolHref: "/image-converter",
+    toolLabel: "PDF to JPG converter",
+    related: [
+      { href: "/pdf-to-png", label: "PDF to PNG" },
+      { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
+      { href: "/jpg-to-pdf", label: "JPG to PDF" },
+      { href: "/pdf-compressor-to-200kb", label: "Compress PDF 200KB" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pdf-to-png",
+    title: "PDF to PNG Converter Online Free | Extract PDF as PNG",
+    description:
+      "Convert PDF to PNG online free. Extract PDF pages as PNG images for editing and compression workflows in India.",
+    heroTitle: "Convert PDF pages to PNG images.",
+    heroCopy:
+      "Extract PDF content as PNG when you need lossless editing before compressing for upload.",
+    introCopy:
+      "PDF to PNG is useful for design handoffs and document scans that need further compression or format conversion.",
+    toolHref: "/image-converter",
+    toolLabel: "PDF to PNG converter",
+    related: [
+      { href: "/pdf-to-jpg", label: "PDF to JPG" },
+      { href: "/png-to-jpg", label: "PNG to JPG" },
+      { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
+      { href: "/image-to-pdf", label: "Image to PDF" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pdf-compressor-to-200kb",
+    title: "PDF Compressor to 200KB Online Free | Reduce PDF Size India",
+    description:
+      "Compress PDF to 200KB online free. Reduce PDF file size for exam forms, job applications, and document uploads in India.",
+    heroTitle: "Compress PDF to 200KB for portal uploads.",
+    heroCopy:
+      "Reduce PDF documents toward a 200KB target for portals with strict attachment limits.",
+    introCopy:
+      "PDF compressor to 200KB searches come from users submitting scanned certificates and application bundles on Indian portals.",
+    toolHref: "/image-compressor",
+    toolLabel: "PDF size reducer",
+    related: [
+      { href: "/pdf-compressor-to-300kb", label: "Compress PDF to 300KB" },
+      { href: "/pdf-compressor-to-500kb", label: "Compress PDF to 500KB" },
+      { href: "/jpg-to-pdf", label: "JPG to PDF" },
+      { href: "/compress-image-to-200kb", label: "Compress image to 200KB" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pdf-compressor-to-300kb",
+    title: "PDF Compressor to 300KB Online Free | Document Upload India",
+    description:
+      "Compress PDF to 300KB online free. Reduce PDF size for government forms, scholarships, and application uploads in India.",
+    heroTitle: "Compress PDF to 300KB online.",
+    heroCopy:
+      "Shrink PDF attachments toward 300KB when portals reject larger scanned documents.",
+    introCopy:
+      "300KB is a common PDF limit on Indian application and scholarship portals. Compress before final submission.",
+    toolHref: "/image-compressor",
+    toolLabel: "PDF compressor 300KB",
+    related: [
+      { href: "/pdf-compressor-to-200kb", label: "Compress PDF 200KB" },
+      { href: "/pdf-compressor-to-500kb", label: "Compress PDF 500KB" },
+      { href: "/compress-image-to-200kb", label: "Compress image 200KB" },
+      { href: "/jpg-to-pdf", label: "JPG to PDF" },
+    ],
+  }),
+  buildAiIntent({
+    slug: "pdf-compressor-to-500kb",
+    title: "PDF Compressor to 500KB Online Free | Large Document Upload",
+    description:
+      "Compress PDF to 500KB online free. Reduce PDF file size for portals that allow slightly larger document attachments in India.",
+    heroTitle: "Compress PDF to 500KB for uploads.",
+    heroCopy:
+      "Reduce multi-page PDF scans toward 500KB while keeping text readable for verification.",
+    introCopy:
+      "500KB PDF limits appear on job portals and certificate uploads. Compress scanned documents before attaching.",
+    toolHref: "/image-compressor",
+    toolLabel: "PDF compressor 500KB",
+    related: [
+      { href: "/pdf-compressor-to-300kb", label: "Compress PDF 300KB" },
+      { href: "/pdf-compressor-to-200kb", label: "Compress PDF 200KB" },
+      { href: "/compress-image-to-500kb", label: "Compress image 500KB" },
+      { href: "/image-to-pdf", label: "Image to PDF" },
     ],
   }),
 ];

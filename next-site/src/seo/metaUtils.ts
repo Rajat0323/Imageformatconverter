@@ -10,7 +10,7 @@ export function clampMetaText(value: string, maxLength: number) {
 
 /** Strip brand suffix so layout title template does not duplicate it. */
 export function stripBrandSuffix(title: string) {
-  return title.replace(/\s*\|\s*ReduceImageSize\s*$/i, "").trim();
+  return title.replace(/\s*\|\s*ImageFormatConverter\s*$/i, "").trim();
 }
 
 export function buildPageTitle(title: string, maxLength = 60) {

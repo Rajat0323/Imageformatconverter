@@ -46,7 +46,7 @@ Also: [AI image compressor](/ai-image-compressor) | [Free AI image compressor](/
 ## Recommended 3-step workflow
 
 1. **Crop** to the portal's required dimensions (passport photo, signature box).
-2. **Convert** to JPG if the source is PNG or HEIC — [PNG to JPG](/png-to-jpg-converter)
+2. **Convert** to JPG if the source is PNG or HEIC — [PNG to JPG](/png-to-jpg)
 3. **Compress** to the exact KB limit and verify file size before upload.
 
 Optional AI steps:

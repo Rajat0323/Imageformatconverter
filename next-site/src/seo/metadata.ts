@@ -1,31 +1,30 @@
 import { Metadata } from "next";
+import { SITE_NAME, SITE_URL } from "@/constants";
 
 export const metadata: Metadata = {
-  title: "Reduce Image Size Online Free | Compress Images in KB & MB",
+  title: "Image Compressor Online Free | Compress Images to 20KB, 50KB, 100KB",
   description:
-    "Reduce image size online for free. Compress images in KB or MB without losing quality. Upload single or multiple images and download instantly. Fast, secure, and browser-based image compressor.",
+    "Free image compressor online for India. Compress photos to 20KB, 50KB, and 100KB for SSC, UPSC, KYC forms. Convert JPG PNG WEBP in your browser.",
   keywords: [
-    "reduce image size online",
-    "compress image online",
-    "reduce image size in kb",
-    "image compressor",
-    "compress jpg online",
-    "compress png online",
-    "reduce image size in mb",
+    "image compressor online",
+    "compress image to 100kb",
+    "compress image to 50kb",
+    "image compressor to 20kb",
+    "photo compressor india",
     "free image compressor tool",
   ],
   openGraph: {
-    title: "Reduce Image Size Online Free",
+    title: `Image Compressor Online Free | ${SITE_NAME}`,
     description:
-      "Free online tool to reduce image size in KB or MB. Batch compress images without losing quality.",
-    url: "https://www.reduceimagesizeonline.com",
-    siteName: "Reduce Image Size Online",
+      "Compress images to exact KB sizes for Indian form uploads. Free, private, browser-based.",
+    url: SITE_URL,
+    siteName: SITE_NAME,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Reduce Image Size Online Free",
+    title: `Image Compressor Online Free | ${SITE_NAME}`,
     description:
-      "Compress images instantly. No upload required. 100% browser-based.",
+      "Compress images to 20KB, 50KB, and 100KB instantly in your browser.",
   },
 };

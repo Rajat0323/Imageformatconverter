@@ -1,6 +1,6 @@
 {
-  "name": "ReduceImageSize",
-  "short_name": "ReduceImageSize",
+  "name": "ImageFormatConverter",
+  "short_name": "ImageFormatConverter",
   "description": "India-focused image tools for compression, conversion, resizing, and exact-KB uploads.",
   "start_url": "/",
   "display": "standalone",

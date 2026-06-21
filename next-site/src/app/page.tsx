@@ -148,6 +148,9 @@ export default function Home() {
               <Link href="/compress-image-to-100kb" className="btn btn-primary">
                 Compress to 100KB
               </Link>
+              <Link href="/compress-image-to-50kb" className="btn btn-ghost">
+                Compress to 50KB
+              </Link>
               <Link href="/image-compressor-to-20kb" className="btn btn-ghost">
                 Compress to 20KB
               </Link>

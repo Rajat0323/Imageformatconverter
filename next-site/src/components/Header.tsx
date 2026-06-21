@@ -21,9 +21,9 @@ export default function Header() {
     <header className="header">
       <div className="header-inner">
         <Link href="/" className="logo">
-          <Image src="/images/logo.svg" alt="ReduceImageSize Logo" width={40} height={40} priority />
+          <Image src="/images/logo.svg" alt="ImageFormatConverter Logo" width={40} height={40} priority />
           <span className="logo-title">
-            ReduceImageSize
+            ImageFormatConverter
             <small>Image tool hub</small>
           </span>
         </Link>

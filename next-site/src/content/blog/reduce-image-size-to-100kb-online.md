@@ -9,8 +9,8 @@ date: "2026-03-18"
 
 A 100KB image target is useful for profile photos, application portals, blog thumbnails, and lightweight content images. If you want to reduce image size to 100KB online, the fastest route is to start with a tool that supports exact-KB presets.
 
-- [Open the 100KB compressor](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [Open the main compressor](https://www.reduceimagesizeonline.com/image-compressor)
+- [Open the 100KB compressor](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [Open the main compressor](https://www.imageformatconverter.in/image-compressor)
 
 ## When 100KB is a good target
 
@@ -39,9 +39,9 @@ Use 100KB when you want a balance between quality and file size for:
 
 ## Related links
 
-- [Compress image for email](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [Compress image for website upload](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
-- [JPG to WEBP converter](https://www.reduceimagesizeonline.com/image-converter)
+- [Compress image for email](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [Compress image for website upload](https://www.imageformatconverter.in/compress-image-to-200kb)
+- [JPG to WEBP converter](https://www.imageformatconverter.in/image-converter)
 
 ## FAQ
 

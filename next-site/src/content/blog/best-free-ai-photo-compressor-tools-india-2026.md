@@ -76,7 +76,7 @@ Compression is only one step. These AI-adjacent tools help before or after KB re
 - **PNG** — Screenshots and logos; harder to reach 20KB
 - **WEBP** — Smallest files for websites; some older portals reject it
 
-Convert first if needed: [PNG to JPG converter](/png-to-jpg-converter)
+Convert first if needed: [PNG to JPG converter](/png-to-jpg)
 
 ## Common mistakes before form submission
 

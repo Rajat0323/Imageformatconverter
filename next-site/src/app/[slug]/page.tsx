@@ -28,7 +28,19 @@ const legacyRedirects: Record<string, string> = {
   "compress-to-50kb": "/compress-image-to-50kb",
   "compress-to-100kb": "/compress-image-to-100kb",
   "compress-to-200kb": "/compress-image-to-200kb",
-  "png-to-jpg": "/png-to-jpg-converter",
+  "compress-image": "/image-compressor",
+  "compress": "/image-compressor",
+  "resize": "/image-resizer",
+  "png-to-jpg-converter": "/png-to-jpg",
+  "jpg-to-png-converter": "/jpg-to-png",
+  "webp-to-jpg-converter": "/webp-to-jpg",
+  "jpg-to-webp-converter": "/jpg-to-webp",
+  "png-to-webp-converter": "/png-to-webp",
+  "webp-to-png-converter": "/webp-to-png",
+  "heic-to-jpg-converter": "/heic-to-jpg",
+  "bmp-to-jpg-converter": "/bmp-to-jpg",
+  "heic-to-png-converter": "/heic-to-png",
+  "pdf-compressor-200kb": "/pdf-compressor-to-200kb",
 };
 
 const indiaOnlySlugs = new Set([

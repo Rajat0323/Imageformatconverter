@@ -15,14 +15,19 @@ const aiToolLinks = [
   { href: "/ai-photo-compressor-online", label: "AI Photo Compressor" },
   { href: "/ai-background-remover-online", label: "AI Background Remover" },
   { href: "/ai-image-enhancer-online", label: "AI Image Enhancer" },
-  { href: "/background-remover", label: "Background Remover Tool" },
+  { href: "/ai-passport-photo-maker", label: "AI Passport Photo" },
+  { href: "/ai-signature-compressor", label: "AI Signature Compressor" },
+  { href: "/chatgpt-image-compressor-alternative", label: "ChatGPT Alternative" },
+  { href: "/background-remover", label: "Background Remover" },
   { href: "/image-upscaler", label: "Image Upscaler" },
 ];
 
 const exactKbLinks = [
   { href: "/compress-image-to-10kb", label: "Compress to 10KB" },
   { href: "/image-compressor-to-20kb", label: "Compress to 20KB" },
+  { href: "/compress-image-to-25kb", label: "Compress to 25KB" },
   { href: "/compress-image-to-50kb", label: "Compress to 50KB" },
+  { href: "/compress-image-to-80kb", label: "Compress to 80KB" },
   { href: "/compress-image-to-100kb", label: "Compress to 100KB" },
   { href: "/compress-image-to-200kb", label: "Compress to 200KB" },
   { href: "/compress-image-to-500kb", label: "Compress to 500KB" },
@@ -30,12 +35,12 @@ const exactKbLinks = [
 ];
 
 const converterLinks = [
-  { href: "/heic-to-jpg-converter", label: "HEIC to JPG" },
-  { href: "/webp-to-jpg-converter", label: "WebP to JPG" },
-  { href: "/jpg-to-webp-converter", label: "JPG to WebP" },
-  { href: "/png-to-jpg-converter", label: "PNG to JPG" },
-  { href: "/jpg-to-png-converter", label: "JPG to PNG" },
-  { href: "/png-to-webp-converter", label: "PNG to WebP" },
+  { href: "/heic-to-jpg", label: "HEIC to JPG" },
+  { href: "/webp-to-jpg", label: "WebP to JPG" },
+  { href: "/jpg-to-webp", label: "JPG to WebP" },
+  { href: "/png-to-jpg", label: "PNG to JPG" },
+  { href: "/jpg-to-png", label: "JPG to PNG" },
+  { href: "/png-to-webp", label: "PNG to WebP" },
 ];
 
 const platformLinks = [

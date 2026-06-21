@@ -11,10 +11,10 @@ If you need to reduce image size in KB, the easiest method is to combine compres
 
 Useful starting points:
 
-- [Open the image compressor](https://www.reduceimagesizeonline.com/image-compressor)
-- [Compress to 20KB](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
-- [Compress to 50KB](https://www.reduceimagesizeonline.com/compress-image-to-50kb)
-- [Compress to 100KB](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
+- [Open the image compressor](https://www.imageformatconverter.in/image-compressor)
+- [Compress to 20KB](https://www.imageformatconverter.in/image-compressor-to-20kb)
+- [Compress to 50KB](https://www.imageformatconverter.in/compress-image-to-50kb)
+- [Compress to 100KB](https://www.imageformatconverter.in/compress-image-to-100kb)
 
 ## Why people search for image size in KB
 
@@ -56,10 +56,10 @@ If the original image came from a phone or DSLR camera, reducing the dimensions 
 
 ## Related workflows
 
-- [Compress signature for form](https://www.reduceimagesizeonline.com/compress-image-to-20kb)
-- [Passport photo size maker](https://www.reduceimagesizeonline.com/image-resizer)
-- [Compress image for email](https://www.reduceimagesizeonline.com/compress-image-to-100kb)
-- [Compress image for website upload](https://www.reduceimagesizeonline.com/compress-image-to-200kb)
+- [Compress signature for form](https://www.imageformatconverter.in/image-compressor-to-20kb)
+- [Passport photo size maker](https://www.imageformatconverter.in/image-resizer)
+- [Compress image for email](https://www.imageformatconverter.in/compress-image-to-100kb)
+- [Compress image for website upload](https://www.imageformatconverter.in/compress-image-to-200kb)
 
 ## FAQ
 
